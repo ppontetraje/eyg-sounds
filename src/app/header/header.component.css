@@ -1,0 +1,21 @@
+
+header {
+    background-color: #08456e; /* Azul */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #00ff00; /* Verde fosforescente */
+}

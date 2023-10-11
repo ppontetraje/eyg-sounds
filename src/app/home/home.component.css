@@ -1,0 +1,22 @@
+main {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.nuevos {
+    margin-bottom: 20px;
+}
+
+.nuevos h2 {
+    font-size: 1.5em;
+}
+
+.destacados h2, .hot h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.contacto, .redes-sociales {
+    margin: 20px 0;
+}

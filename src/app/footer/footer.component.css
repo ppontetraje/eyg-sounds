@@ -1,0 +1,12 @@
+footer {
+    background-color: #e74c3c; /* Rojo */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
