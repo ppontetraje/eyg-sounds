@@ -6,7 +6,7 @@
     font-family: "Bebas Neue";
 }
 body { 
-    background: url("../assets/images/channel_img.jpg")  no-repeat center center fixed;
+    background: url("./assets/images/all_together.jpg")  no-repeat center center fixed;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
