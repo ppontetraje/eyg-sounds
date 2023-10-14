@@ -2,7 +2,7 @@
 <div class="pagination__container">
     <div class="button__container">
     <div class="sound__button" *ngFor="let item of soundList | paginate: { itemsPerPage: itemsPerPage, currentPage: p}">
-      <a class="link__sound" (click)="_sound.playSound(item.soundURL)">
+      <a class="link__sound" (click)="_sound.playSound(item.soundUrl)">
         <span class="text__button">{{ item.text }}</span>
        
       </a>

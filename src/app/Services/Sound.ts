@@ -3,7 +3,7 @@ export class Sound {
                 public id:string,
                 public fav:string,
                 public text:string,
-                public soundURL:string,
+                public soundUrl:string,
                 public tag:string
         ) 
 {}

@@ -8,25 +8,26 @@ import { Sound } from '../Services/Sound';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  soundList:Sound[] = [];
-  p:number = 1;
-  itemsPerPage!:number;
+  soundList: Sound[] = [];
+  p: number = 1;
+  itemsPerPage!: number;
   totalProduct: any;
+  minItemsPerPage: number = 25;
 
-  constructor(public _sound:SoundsComponent){    
+  constructor(public _sound: SoundsComponent) {
     this.loadSoundList();
   }
   async loadSoundList() {
     try {
-        const soundInstances = await this._sound.getAllSounds();
-        this.soundList = soundInstances;
-        this.totalProduct = this.soundList.length;
-    this.itemsPerPage = this.totalProduct/ 10;
+      const soundInstances = await this._sound.getAllSounds();
+      this.soundList = soundInstances;
+      this.totalProduct = this.soundList.length;
+      this.itemsPerPage = this.totalProduct / 10 > this.minItemsPerPage ? this.totalProduct / 10 : this.minItemsPerPage;
     } catch (error) {
-        console.error('Error al cargar la lista de sonidos:', error);
+      console.error('Error al cargar la lista de sonidos:', error);
     }
-}
+  }
   ngOnInit(): void {
-    
+
   }
 }

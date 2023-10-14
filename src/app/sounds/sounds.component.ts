@@ -33,7 +33,7 @@ export class SoundsComponent {
                     jsonSound.tag
                 );
             });
-    
+            console.log(soundInstances);
             return soundInstances;
         } catch (error) {
             console.error('Error al cargar el archivo JSON:', error);
@@ -45,6 +45,7 @@ export class SoundsComponent {
             /*console.log(path);*/
             this.audio.pause();
         }
+        /*console.log(path);*/
         this.audio = new Audio();
         this.audio.src = path;
         this.audio.load();
