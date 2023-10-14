@@ -1,14 +1,37 @@
 <main>
-    <section class="nuevos">
-        <h2>Nuevos</h2>
-        <app-sounds></app-sounds>
-    </section>
-    <section class="hot">
-        <h2>Hot</h2>
-        <app-sounds></app-sounds>
-    </section>
-    <section class="destacados">
-        <h2>Destacados</h2>
-        <app-sounds></app-sounds>
-    </section>
+<div class="pagination__container">
+    <div class="button__container">
+    <div class="sound__button" *ngFor="let item of soundList | paginate: { itemsPerPage: itemsPerPage, currentPage: p}">
+      <a class="link__sound" (click)="_sound.playSound(item.soundURL)">
+        <span class="text__button">{{ item.text }}</span>
+       
+      </a>
+      <div class="tag__btn" *ngIf="item.tag=='New'; else elseBlock">
+        <span class="new__text">{{item.tag}}</span>
+        <span class="right__tag">
+          <i class="far fa-star"></i>
+          <span class="tooltiptext">Añadir a favoritos</span>
+        </span>
+      </div>
+      <ng-template #elseBlock>
+        <div *ngIf="item.tag=='Hot'; else elseBlock2" class="tag__btn" >
+          <span class="hot__text">{{ item.tag }}</span>
+          <span class="right__tag"><i class="far fa-star"></i> </span>
+        </div>
+      </ng-template> 
+      <ng-template #elseBlock2>
+        <div class="tag__btn" >
+          <span class="top__text">{{ item.tag }} </span>
+          <span class="right__tag"><i class="far fa-star"></i> </span>
+        </div>  
+      </ng-template> 
+    </div>     
+  </div>
+  <div class="pagination__ngx__container mt-8 py-5">
+    <pagination-controls (pageChange)="p = $event" [maxSize]="3"></pagination-controls> 
+  </div>
+</div>
+ 
+<div class="fb-comments gotito__fb" data-href="https://ppontetraje.github.io/elgotito-sounds/" data-mobile data-width="" data-numposts="10"></div>
+
 </main>

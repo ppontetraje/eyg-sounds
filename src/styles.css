@@ -6,7 +6,7 @@
     font-family: "Bebas Neue";
 }
 body { 
-    background: url("./assets/images/all_together.jpg")  no-repeat center center fixed;
+    background: url("./assets/images/bricks2.jpg")  no-repeat center center fixed;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -14,4 +14,37 @@ body {
     background-size: cover;
     /*background-image: linear-gradient(to left bottom, #00754b, #358d68, #57a685, #78bfa3, #9ad9c1, #a1dcc6, #a9e0cc, #b0e3d1, #9ed0bf, #8cbead, #7bac9c, #6a9a8b);
 */
+}
+
+.ngx-pagination .disabled{
+    color: chartreuse !important;
+  }
+  .ngx-pagination .disabled :hover{
+    background: none !important;
+    color: chartreuse !important;
+  }
+.ngx-pagination .current{
+    background: #8a0c0c !important;
+  }
+  .ngx-pagination .current :hover{
+    color: #fff !important;
+  }
+  .ngx-pagination a, .ngx-pagination button {
+    color: whitesmoke !important;    
+}
+.ngx-pagination li :hover {
+    color: #000 !important;
+ }
+
+
+ @media only screen and (max-width: 724px) {
+  .carousel-cell {
+    height: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+.pagination__container{  
+  width: 92% !important;
+}
 }

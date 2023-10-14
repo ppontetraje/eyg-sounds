@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SoundsComponent } from './sounds/sounds.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -14,13 +16,15 @@ import { SoundsComponent } from './sounds/sounds.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    SoundsComponent
+    SoundsComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxPaginationModule
   ],
-  providers: [],
+  providers: [SoundsComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
