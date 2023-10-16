@@ -1,0 +1,100 @@
+[
+    {
+        "id": "",
+        "fav": "false",
+        "text": "Oe Tarao",
+        "soundUrl": "./assets/sounds/tarao.mp3",
+        "tag": "🥇 Top 1"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "Que $%& hizó Reynoso!!!",
+        "soundUrl": "./assets/sounds/que_m_hizo_reynoso.mp3",
+        "tag": "🥈 Top 2"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "Te lo voy a demostrar",
+        "soundUrl": "./assets/sounds/matematicamente_no_se_puede.mp3",
+        "tag": "🥉 Top 3"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "Me gustan las chicas",
+        "soundUrl": "./assets/sounds/me_gustan_las_chicas.mp3",
+        "tag": "Top 4"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "La metida de dedo",
+        "soundUrl": "./assets/sounds/me_has_metido_el_dedo.mp3",
+        "tag": "Top 5"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "E.F. me llega al $#%",
+        "soundUrl": "./assets/sounds/me_llega_edfl.mp3",
+        "tag": "Top 6"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "Si rezan los dos es empate",
+        "soundUrl": "./assets/sounds/si_reza_el_otro_empate.mp3",
+        "tag": "Top 7"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "Los de brasil con la mica de Alianza",
+        "soundUrl": "./assets/sounds/neymar_con_la_mica_de_alianza.mp3",
+        "tag": "Top 8"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "Soy de la (U)",
+        "soundUrl": "./assets/sounds/de_la_u_desde_chiquito.mp3",
+        "tag": "Top 9"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "Mr. Peet es el sistema",
+        "soundUrl": "./assets/sounds/pett_es_el_sistema.mp3",
+        "tag": "Top 10"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "Paco es una mazamorra!",
+        "soundUrl": "./assets/sounds/paco_es_una_mazamorra.mp3",
+        "tag": "New"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "¿Que está haciendo Reynoso?",
+        "soundUrl": "./assets/sounds/reynoso_quiere_techar_la_videna.mp3",
+        "tag": "New"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "Respétalos won",
+        "soundUrl": "../../assets/sounds/se_estan_horneando.mp3",
+        "tag": "New"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "Me llegan al ...",
+        "soundUrl": "./assets/sounds/me_llegan_al_pincho.mp3",
+        "tag": "New"
+    }
+]
