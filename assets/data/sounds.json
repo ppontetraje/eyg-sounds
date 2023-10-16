@@ -3,14 +3,14 @@
         "id": "",
         "fav": "false",
         "text": "Oe Tarao",
-        "soundUrl": "./assets/sounds/tarao.mp3",
+        "soundUrl": "../../assets/sounds/tarao.mp3",
         "tag": "🥇 Top 1"
     },
     {
         "id": "",
         "fav": "false",
         "text": "Que $%& hizó Reynoso!!!",
-        "soundUrl": "./assets/sounds/que_m_hizo_reynoso.mp3",
+        "soundUrl": "../assets/sounds/que_m_hizo_reynoso.mp3",
         "tag": "🥈 Top 2"
     },
     {
