@@ -87,7 +87,7 @@
         "id": "",
         "fav": "false",
         "text": "Respétalos won",
-        "soundUrl": "../../assets/sounds/se_estan_horneando.mp3",
+        "soundUrl": "./assets/sounds/se_estan_horneando.mp3",
         "tag": "New"
     },
     {
@@ -95,6 +95,34 @@
         "fav": "false",
         "text": "Me llegan al ...",
         "soundUrl": "./assets/sounds/me_llegan_al_pincho.mp3",
+        "tag": "New"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "Ohleee ole ole ole, Paco Paco!",
+        "soundUrl": "./assets/sounds/ole_ole_ole.mp3",
+        "tag": "New"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "Despierta tarao",
+        "soundUrl": "./assets/sounds/despertador_eyg.mp3",
+        "tag": "New"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "Armonia 10",
+        "soundUrl": "./assets/sounds/armonia_10.mp3",
+        "tag": "New"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "Mañana juega Messi, dejate de huevadas!!!",
+        "soundUrl": "./assets/sounds/dejate_de_huevadas.mp3",
         "tag": "New"
     }
 ]
