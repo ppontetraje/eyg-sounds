@@ -13,7 +13,7 @@ export class SoundsComponent {
     public async getAllSounds(): Promise<Sound[]>  {
         try {
             // Realiza una solicitud HTTP para obtener el archivo JSON
-            const response = await fetch('../assets/data/sounds.json');
+            const response = await fetch('./assets/data/sounds.json');
     
             if (!response.ok) {
                 console.log('No se pudo cargar el archivo JSON.');
@@ -32,8 +32,7 @@ export class SoundsComponent {
                     jsonSound.soundUrl,
                     jsonSound.tag
                 );
-            });
-            console.log(soundInstances);
+            });           
             return soundInstances;
         } catch (error) {
             console.error('Error al cargar el archivo JSON:', error);

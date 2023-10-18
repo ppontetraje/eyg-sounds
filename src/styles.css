@@ -35,7 +35,9 @@ body {
 .ngx-pagination li :hover {
     color: #000 !important;
  }
-
+._ohe .lfloat ._50f7 {
+  color: #fff !important;
+}
 
  @media only screen and (max-width: 724px) {
   .carousel-cell {
