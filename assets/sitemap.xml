@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
   <loc>https://ppontetraje.github.io/eyg-sounds/</loc>
   <lastmod>2023-10-18T22:43:55+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
   <image:image>
       <image:loc>https://ppontetraje.github.io/eyg-sounds/assets/images/all_together.jpg</image:loc>
-    </image:image>
-    <image:image>
+      <image:title>Elenco completo de Erick y Gonzalo</image:title>
+  </image:image>
+  <image:image>
       <image:loc>https://ppontetraje.github.io/eyg-sounds/assets/images/cashto.jpg</image:loc>
-    </image:image>
-    <image:image>
+      <image:title>Gonzalo Nuñez</image:title>
+  </image:image>
+  <image:image>
       <image:loc>https://ppontetraje.github.io/eyg-sounds/assets/images/el_fiscal.jpg</image:loc>
-    </image:image>
-    <image:image>
+      <image:title>Erick Osores</image:title>
+  </image:image>
+  <image:image>
       <image:loc>https://ppontetraje.github.io/eyg-sounds/assets/images/erick_delgado.jpg</image:loc>
-    </image:image>
-    <image:image>
+      <image:title>Erick Delgado</image:title>
+  </image:image>
+  <image:image>
       <image:loc>https://ppontetraje.github.io/eyg-sounds/assets/images/negrini_yimbo.jpg</image:loc>
-    </image:image>
-    <image:image>
+      <image:title>Negrini</image:title>
+  </image:image>
+  <image:image>
       <image:loc>https://ppontetraje.github.io/eyg-sounds/assets/images/pacu.jpg</image:loc>
-    </image:image>
+      <image:title>Paco Bazán</image:title>
+  </image:image>
 </url>
 
 </urlset>
