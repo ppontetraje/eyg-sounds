@@ -1,4 +1,29 @@
-# EygSounds
+# Erick y Gonzalo mejores momentos
+
+
+<h1 align="center">
+  <a name="logo" href="https://ppontetraje.github.io/eyg-sounds/"><img src="https://ppontetraje.github.io/eyg-sounds/assets/images/all_together.jpg" alt="Programa de Erick y Gonzalo" width="200"></a>
+  <br>
+  Erick y Gonzalo Documentation
+</h1>
+<h4 align="center">Asegurate de :star: mi repo para recibir notificaciones de nuevas actualizaciones!</h4>
+</div>
+<p><font size="3">
+Este Repo contiene código fuente de la página Erick y Gonzalo mejores momentos. Una página creada con el fin de practicar nuevas habilidades y lecciones aprendidas sobre el framework frontend Angular.
+Espero les guste la página de Erick y el Cashtó
+</p>
+<div align="center"><a name="menu"></a>
+  <h4>
+    <a href="https://ppontetraje.github.io/eyg-sounds">
+      Página Web
+    </a>
+  </h4>
+</div>
+
+![Screenshot de la página](https://ppontetraje.github.io/eyg-sounds/assets/images/all_together.jpg)
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
 
