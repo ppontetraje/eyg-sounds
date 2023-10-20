@@ -124,5 +124,12 @@
         "text": "Mañana juega Messi, dejate de huevadas!!!",
         "soundUrl": "./assets/sounds/dejate_de_huevadas.mp3",
         "tag": "New"
+    },
+    {
+        "id": "",
+        "fav": "false",
+        "text": "Los jefes",
+        "soundUrl": "./assets/sounds/los_jefes.mp3",
+        "tag": "New"
     }
 ]
